@@ -1,0 +1,68 @@
+Tabela
+
+<div class="container mx-auto">
+     
+      <table class="w-full mx-2">
+        <thead>
+          <tr class="border-b text-left text-sm border-gray-200">
+            <th class="py-2">Nome</th>
+            <th class="hidden md:table-cell">Titulo</th>
+            <th class="hidden md:table-cell">Email</th>
+            <th>Função</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b text-left text-sm text-gray-400 border-gray-200">
+            <td><p class="text-black font-bold">Maria da Silva</p>
+              <p class="md:hidden">Cafezeira</p>
+              <p class="md:hidden">mariadocafe@gmail.com</p>
+            </td>
+            <td class="hidden md:table-cell"><p>Cafezeira</p></td>
+            <td class="hidden md:table-cell" ><p>mariadocafe@gmail.com</p></td>
+            <td><p>membro</p></td>
+            <td><a href=""><p>editar</p></a></td>
+          </tr>
+        </tbody>
+      </table>
+          
+    </div>
+
+
+GRID
+
+
+<div class="container mx-auto">
+     
+      <div class="p-3 rounded-md bg-gray-400">
+        <div class="grid grid-cols-2 gap-2 md:grid-cols-3">
+            <div class="w-full h-60 bg-cover col-span-2 bg-center bg-[url(https://admin.archshop.com.br/uploads/002_d8b12b0012.jpg)] md:col-span-2 md:row-span-2 md:h-full"></div>
+            <div class="w-full h-40 md:h-60 bg-cover bg-center bg-[url(https://admin.archshop.com.br/uploads/002_d8b12b0012.jpg)]" ></div>
+            <div class="w-full h-40 md:h-60 bg-cover bg-center bg-[url(https://admin.archshop.com.br/uploads/002_d8b12b0012.jpg)]"></div>
+        </div>
+        <div class="font-bold text-2xl mt-3">Titulo da casa</div>
+        <div class="flex gap-2 mt-3">
+          <div class="rounded-full px-3 py-1 bg-green-700 text-white">Campo</div>
+          <div class="rounded-full px-3 py-1 bg-green-700 text-white">Moderno</div>
+          <div class="rounded-full px-3 py-1 bg-green-700 text-white">Piscina</div>
+        </div>
+      </div>
+          
+    </div>
+
+
+TELA JCOLE
+
+ <div class="container mx-auto">
+      <div class="overflow-hidden bg-slate-800 p-4 rounded-xl md:flex md:flex-row md:p-0">
+      
+              <img class="rounded-full w-25 h-25 object-cover mx-auto md:rounded-xl md:h-auto " src="https://thefader-res.cloudinary.com/private_images/w_1260,c_limit,f_auto,q_auto:best/J._Cole_Lead_Promo_Image_vwgqi9/j-cole-photo-by-david-peters.jpg" alt="">
+            <div class="text-center">
+              <h1 class="text-center text-white">"No such thing in life is better than yours"</h1>
+              <h2 class="text-blue-400">Jermaine Lamar Cole</h2>
+              <h3 class="text-gray-400">Rapper</h3>
+            </div>
+    </div>
+          
+    </div>
+

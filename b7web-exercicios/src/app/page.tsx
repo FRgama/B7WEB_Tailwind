@@ -36,7 +36,7 @@ export default function Home() {
     <div>
       <h2 className="text-lg mb-4">Exercício 02</h2>
       <p className="text-lg mb-4">Alerta de Acesso</p>
-      <div className="bg-yellow-100  mx-auto p-4 text-lg rounded-xl my-4 md:w-3/4">
+      <div className="bg-yellow-100  mx-auto p-4 text-lg rounded-xl my-4 md:w-2/3">
         <p className="text-yellow-700">Você não tem mais acesso <a className="underline text-yellow-800" href="">Faça o upgrade agora!</a></p>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -6,6 +7,21 @@ export default function Home() {
     <div className="text-blue-400 text-xl p-4 mb-4 hover:text-sky-200">
       <header><a href="https://alunos.b7web.com.br/curso/tailwindcss/o-que-e-tailwindcss" target="blank">Exercícios utilizando TailwindCss através do curso B7WEB</a></header>
     </div>
+
+    <div className="p-4 gap-2 my-4 w-1/2 flex mx-auto flex-col md:flex-row md:justify-center">
+      <Link href="/" className="mx-4 p-4 rounded-xl bg-gray-400 hover:bg-gray-50 hover:text-black">
+        Página 1
+      </Link>
+      <Link href="/pag02" className="mx-4 p-4 rounded-xl bg-gray-400 hover:bg-gray-50 hover:text-black">
+        Página 2
+      </Link>
+      <Link href="/pag03" className="mx-4 p-4 rounded-xl bg-gray-400 hover:bg-gray-50 hover:text-black">
+        Página 3
+      </Link>
+      <Link href="/pag04" className="mx-4 p-4 rounded-xl bg-gray-400 hover:bg-gray-50 hover:text-black">
+        Página 4
+      </Link>
+  </div>
 
     <div>
       <h2 className="text-lg mb-4">Exercício 01</h2>
@@ -52,13 +68,6 @@ export default function Home() {
       <p>Senha</p>
       <input className="px-4 py-2 w-1/3 my-2 border bg-gray-800 rounded-lg mb-4" type="password" />
       <button className="bg-gray-800 block p-2 mx-auto rounded-xl w-1/3 cursor-pointer hover:bg-gray-500">Entrar</button>
-    </div>
-
-    <div>
-      <a href="">Exercício 5</a>
-      <a href="">Exercício 6</a>
-      <a href="">Exercício 7</a>
-      <a href="">Exercício 8</a>
     </div>
     
     </div>

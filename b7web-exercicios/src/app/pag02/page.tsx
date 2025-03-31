@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+
 
 export default function pag02() {
     return (
@@ -35,7 +35,7 @@ export default function pag02() {
       
              <img className="rounded-full w-25 h-25 my-4 object-cover mx-auto md:m-2 " src="https://thefader-res.cloudinary.com/private_images/w_1260,c_limit,f_auto,q_auto:best/J._Cole_Lead_Promo_Image_vwgqi9/j-cole-photo-by-david-peters.jpg" alt="" />
             <div className="text-center text-lg">
-              <h1 className="text-center text-white">"No such thing in life is better than yours"</h1>
+            <h1 className="text-center text-white">'No such thing in life is better than yours'</h1>
               <h2 className="text-blue-400">Jermaine Lamar Cole</h2>
               <h3 className="text-gray-400">Rapper</h3>
             </div>

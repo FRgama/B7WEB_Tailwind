@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function pag02() {
     return (
-        <div className="container w-screen h-screen mx-auto text-center bg-gray-900">
+        <div className="container w-screen h-full mx-auto text-center bg-gray-900">
 
             <div className="p-4 gap-2 my-4 w-1/2 flex mx-auto flex-col md:flex-row md:justify-center">
                 <Link href="/" className="mx-4 p-4 rounded-xl bg-gray-400 hover:bg-gray-50 hover:text-black">

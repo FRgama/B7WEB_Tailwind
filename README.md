@@ -1,5 +1,7 @@
 # 🚀 Repositório de Exercícios - Curso de Tailwind CSS (B7Web)
 
+Confira o projeto hospedado [AQUI](https://b7-web-tailwind-exercicios.vercel.app)!
+
 Este repositório contém todos os exercícios desenvolvidos durante o curso de **Tailwind CSS** da [B7Web](https://b7web.com.br/). O objetivo deste repositório é armazenar, organizar e compartilhar o aprendizado adquirido ao longo do curso.
 
 ## 📌 Sobre o Curso
